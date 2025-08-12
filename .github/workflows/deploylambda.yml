@@ -32,5 +32,5 @@ jobs:
       - name: Deploy Lambda
         run: |
           aws lambda update-function-code \
-            --function-name HelloWorldNode \
+            --function-name myfunction02 \
             --zip-file fileb://function.zip
